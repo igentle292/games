@@ -95,7 +95,7 @@ public class sudokuGenerator extends sudokuSolver{
                 System.out.print(num + " ");
             System.out.println();
         }
-        System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+        System.out.println();
         for(int[] list : puzzle){
             for(int num : list)
                 System.out.print(num + " ");
